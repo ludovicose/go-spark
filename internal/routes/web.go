@@ -8,7 +8,7 @@ import (
 func Web() {
 	facades.Route.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"Hello": "Goravel",
+			"Hello": "All",
 		})
 	})
 
